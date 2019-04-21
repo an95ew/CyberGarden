@@ -1,0 +1,115 @@
+body {
+  margin-bottom: 0;
+}
+
+.blog_text_short{
+  text-overflow: ellipsis;
+}
+
+.head_bar {
+  position: absolute;
+  border: 2px;
+  background: rgba(240, 227, 227, 0.7);
+  padding: 5px;
+  height: 15%;
+  width: 99%;
+}
+
+.time_bar {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.logo {
+    height: 100%;
+    width: 10%;
+}
+
+
+.side_bar {
+  position: absolute;
+  top: 20%;
+  border: 2px groove red;
+  width: 20%;
+  height:73%;
+}
+
+.right_bar {
+position: absolute;
+left: 83%;
+top: 20%;
+border: 2px solid blue;
+width: 18%;
+height: 73%;
+}
+
+.content_bar {
+  position: absolute;
+  left: 22%;
+  top: 20%;
+  border: 2px solid blue;
+  width: 60%;
+  height: 73%;
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+  background-color: #d1ecf1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5%;
+}
+.footer::after{
+  color: #000;
+  content: "Hello, i'm footer";
+}
+
+.card-header h5{
+	text-align: center!important;
+}
+
+.btn-event-col2{
+	padding: 0 !important;
+	text-decoration: none!important;
+}
+
+#authorisation_bar{
+	margin-top: 1rem;
+}
+
+#navigation{
+	margin-bottom: 1rem;
+}
+
+#collapseAuth{
+	padding: 0 15px;
+}
+
+#headerEvents{
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+#site_logo {
+  width: 100px;
+  height: 100px;
+}
+
+#left_col, #right_col {
+  width: 200px;
+  padding: 15;
+  background-color: #f2f0e7;
+  min-height: 100%;
+}
+
+#news_name {
+  color: red;
+}
+
+#login_bar {
+  background-color: grey;
+  align: center;
+}
