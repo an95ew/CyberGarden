@@ -1,0 +1,220 @@
+#map
+{
+        width: 100%;
+        height: 500px;
+}
+
+td {
+border: 2px solid rgb(102, 102, 102);
+border-radius: 4px;
+
+}
+
+#adduser_block{
+margin: 30px 0 10px 0;
+}
+
+.bottom2{
+display:       inline-block;
+padding:       8px 20px;
+background:    #073763 url('../img/button.png') repeat-x;
+background:    -moz-linear-gradient(#3d85c6, #073763);
+background:    -o-linear-gradient(#3d85c6, #073763);
+background:    -webkit-linear-gradient(#3d85c6, #073763);
+background:    linear-gradient(#3d85c6, #073763);
+border-radius: 5px;
+box-shadow:    1px 1px 0 0 #444;
+color:         #fff;
+font:          normal 700 24px/1 "Calibri", sans-serif;
+text-align:    center;
+text-shadow:   1px 1px 0 #000;
+cursor:pointer;
+}
+.bottom2:hover{
+display:       inline-block;
+padding:       8px 20px;
+background:    #469cec url('../img/button_hover.png') repeat-x;
+background:    -moz-linear-gradient(#1680e0, #469cec);
+background:    -o-linear-gradient(#1680e0, #469cec);
+background:    -webkit-linear-gradient(#1680e0, #469cec);
+background:    linear-gradient(#1680e0, #469cec);
+border-radius: 5px;
+box-shadow:    1px 1px 0 0 #444;
+color:         #fff;
+font:          normal 700 24px/1 "Calibri", sans-serif;
+text-align:    center;
+text-shadow:   1px 1px 0 #000;
+cursor:pointer;
+}
+
+.rg-image-wrapper{
+	position:relative;
+	padding:20px 30px;
+	margin-left:20px;
+	background:transparent url(../images/black.png) repeat top left;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	min-height:20px;
+}
+.rg-image{
+	position:relative;
+	text-align:center;
+	line-height:0px;
+}
+.rg-image img{
+	max-height:100%;
+	max-width:100%;
+}
+.rg-image-nav a{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:#000 url(../images/nav.png) no-repeat -20% 50%;
+	width:28px;
+	height:100%;
+	text-indent:-9000px;
+	cursor:pointer;
+	opacity:0.3;
+	outline:none;
+	-moz-border-radius: 10px 0px 0px 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	border-radius: 10px 0px 0px 10px;
+}
+.rg-image-nav a.rg-image-nav-next{
+	right:0px;
+	left:auto;
+	background-position:115% 50%;
+	-moz-border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 10px 10px 0px;
+}
+.rg-image-nav a:hover{
+	opacity:0.8;
+}
+.rg-caption {
+	text-align:center;
+	margin-top:15px;
+	position:relative;
+}
+.rg-caption p{
+	font-size:11px;
+	letter-spacing:2px;
+	font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+	line-height:16px;
+	padding:0 15px;
+	text-transform:uppercase;
+}
+.rg-view{
+	margin-left:30px;
+	height:30px;
+}
+.rg-view a{
+	display:block;
+	float:right;
+	width:16px;
+	height:16px;
+	margin-right:3px;
+	background:#464646 url(../images/views.png) no-repeat top left;
+	border:3px solid #464646;
+	opacity:0.8;
+}
+.rg-view a:hover{
+	opacity:1.0;
+}
+.rg-view a.rg-view-full{
+	background-position:0px 0px;
+}
+.rg-view a.rg-view-selected{
+	background-color:#6f6f6f;
+	border-color:#6f6f6f;
+}
+.rg-thumbs{
+	margin-left:20px;
+}
+.rg-view a.rg-view-thumbs{
+	background-position:0px -16px;
+}
+.rg-loading{
+	width:46px;
+	height:46px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	background:#000 url(../images/ajax-loader.gif) no-repeat center center;
+	margin:-23px 0px 0px -23px;
+	z-index:100;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	opacity:0.7;
+}
+/* tabs example design */
+.tabs > * {
+background: none repeat scroll 0 0 rgb(140, 140, 140, 0.7);
+border-radius: 4px;
+font-size: 140%;
+color: rgb(31, 31, 31);
+display: inline-block;
+padding: 5px 10px;
+text-decoration: none;
+box-shadow: 0 0 10px #fff;
+}
+.tabs > .active {
+background: none repeat scroll 0 0 rgb(89, 89, 89, 0.7);
+box-shadow: 0 0 10px #fff;
+}
+
+.tabs a:hover {
+color: rgb(0, 0, 0);
+}
+.content {
+margin-top: 5%;
+color:#000000;
+height: 50%;
+padding: 2% 2%;
+border-radius: 4px;
+box-shadow: 0 0 10px #fff;
+/* padding:30px; */
+/* padding: 10px; */
+}
+/* helpers */
+
+#content {
+	height: 60%;
+
+}
+.d-n {
+display: none;
+}
+.author {
+background: none repeat scroll 0 0 hsl(0, 0%, 98%);
+bottom: 0;
+font-size: 0.7em;
+padding: 15px;
+position: fixed;
+right: 0;
+}
+.inner {
+margin-top:10px;
+height: 60%;
+}
+
+#IP_adr {
+	text-align: center;
+}
+
+#js-tabs-content-rows {
+	/* width:50%; */
+}
+
+#page {
+ margin: 10% 10%;
+ text-align: center;
+ height: 80%;
+ width: 80%;
+}
+
+a {
+	cursor: pointer;
+}

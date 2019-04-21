@@ -1,0 +1,68 @@
+body {
+  height: 100%
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(64, 64, 64);
+}
+
+.container {
+width: 450px;
+height: 500px;
+background-color: rgba(153, 51, 0, 0.7);
+margin: 150px auto 150px auto;
+text-align: center;
+border-radius: 5%;
+box-shadow: 0 -5px 10px #3adbfd;
+}
+
+.signup_field {
+  font-size: 120%;
+}
+
+input[type="text"], input[type="password"] {
+  text-align: center;
+  width: 80%;
+  height: 8%;
+  font-size: 18px;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+select {
+  text-align-last:center;
+  width: 80%;
+  height: 8%;
+  font-size: 18px;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+.container img {
+  width: 25%;
+  height: 25%;
+  margin: -10% 0 5% 0;
+  border: 5px solid;
+  border-radius: 50%;
+  box-shadow: 0 -5px 10px #3adbfd;
+}
+
+.auth_submit {
+  padding: 2% 6%;
+  margin: 5%;
+  font-size: 80%;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 4px solid #6ee9fd;
+  background-color: #2ca8c6;
+  cursor: pointer;
+}
+
+.auth_submit:hover {
+  transition: all 0.5s;
+  background: #fff;
+  color: #2c536c;
+}
